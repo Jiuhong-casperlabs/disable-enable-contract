@@ -17,11 +17,12 @@ casper-client put-deploy --chain-name mynetwork \
 
 => success
 
+```
 contract_hash: (yours are different)
 hash-28db4e0bdda0841787adef1a37bb5e4de4d9a73020ce5210976e7ee9521d6cb3
 contract_package_hash:
 hash-2b626bfebe3636e090f0fc63d6124f5399eb5078f2f49160f974c6f4d94ec757
-
+```
 
 ### call entry point hello_world and it works fine
 ```
