@@ -83,7 +83,7 @@ casper-client put-deploy --chain-name mynetwork \
 => success
 
 
-### call entry point hello_worldcall again =>
+### call entry point hello_world again =>
 ```
 casper-client put-deploy --chain-name mynetwork \
 --node-address http://16.162.124.124:7777 \
@@ -124,7 +124,7 @@ casper-client put-deploy --chain-name mynetwork \
 => success
 
 
-### call entry point hello_worldcall again =>
+### call entry point hello_world again =>
 ```
 casper-client put-deploy --chain-name mynetwork \
 --node-address http://16.162.124.124:7777 \
