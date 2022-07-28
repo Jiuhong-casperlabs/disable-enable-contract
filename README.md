@@ -23,6 +23,23 @@ hash-28db4e0bdda0841787adef1a37bb5e4de4d9a73020ce5210976e7ee9521d6cb3
 contract_package_hash:
 hash-2b626bfebe3636e090f0fc63d6124f5399eb5078f2f49160f974c6f4d94ec757
 ```
+You can get contract_hash and contract_package_hash from browsing the info_get_deploy result
+```
+"AddKeys": [
+                      {
+                        "key": "hash-28db4e0bdda0841787adef1a37bb5e4de4d9a73020ce5210976e7ee9521d6cb3",
+                        "name": "contract_hash"
+                      }
+                    ]
+...
+ "AddKeys": [
+                      {
+                        "key": "hash-2b626bfebe3636e090f0fc63d6124f5399eb5078f2f49160f974c6f4d94ec757",
+                        "name": "contract_package_hash"
+                      }
+
+```
+
 
 ### call entry point hello_world and it works fine
 ```
